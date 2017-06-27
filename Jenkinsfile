@@ -7,5 +7,10 @@ pipeline {
         echo 'Script 2'
       }
     }
+    stage('Deploy') {
+      steps {
+        echo 'Deploy'
+      }
+    }
   }
 }
